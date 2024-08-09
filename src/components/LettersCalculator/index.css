@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom right, #1d976c, #93f9b9, #ffff);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.icon {
+  height: 400px;
+  width: 600px;
+}
+.search-input {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px black solid;
+}
+.result-box {
+  background-color: white;
+  color: #1d976c;
+  padding: 10px;
+  border-radius: 10px;
+}
+.heading {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+}
